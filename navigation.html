@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>FORM LOGIN-APP FACTORY</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <div class="nav">
+            <ul>
+                <li><a href="default.asp">Home</a></li>
+                <li><a href="news.asp">News</a></li>
+                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="about.asp">About</a></li>
+              </ul>
+
+        </div>
+        
+        <!-- creating a form -->
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+              <img src="login.png" height="250px" width="250px">
+            </div>
+          
+            <div class="Username">
+              <label for="uname"><b>Username: </b></label>
+              <input class="uname1" type="text" placeholder="Enter Username" name="uname" required>
+            </div>
+            <div class="password">
+                <label for="psw"><b>Password: </b></label>
+              <input class="pass" type="password" placeholder="Enter Password" name="psw" required>
+            </div>
+          
+              
+        
+              <button type="submit" class="login">Login</button>
+              <!-- <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label> -->
+
+              <div class="forgot">
+                <span class="psw">Forgot <a href="#">password?</a></span>
+              </div>
+              
+            </div>
+          </form>
+    </body>
+</html>

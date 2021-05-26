@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans';
+}
+body{
+    background-color: rgb(221, 221, 221);
+}
+.imgcontainer{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 40%;
+    
+
+}
+.password{
+    margin-bottom: 10px;
+    margin-left: 40%;
+    border-radius: 12px;
+}
+.username{
+    margin-left: 40%;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+.login{
+    margin-left: 45%;
+    background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  width:100px ;
+ 
+}
+.forgot{
+    margin-top: 10px;
+    margin-left: 45%;
+}
+.uname1{
+    border-color: white;
+    border-radius: 12px;
+    align-items: center;
+   
+}
+.pass{
+    border-color: white;
+    border-radius: 12px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav{
+      flex: 0;
+      flex-direction: row;
+  }
